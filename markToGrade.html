@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="markToGrade.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markToGrade.html">Mark to Grade Converter</a></li>
+                <li><a href="staff.html">Staff List</a></li>
+                <li><a href="weather.html">Weather Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Mark to Grade Converter</h1>
+        <label for="marks">Enter Marks: </label>
+        <input type="number" id="marks" placeholder="Enter marks" />
+        <button onclick="convertMarksToGrade()">Convert</button>
+        <p id="validation-message"></p>
+        <p id="result"></p>
+    </main>
+
+    <footer>
+        <p>Current Date: <span id="current-date"></span></p>
+        <p>&copy; Kyrian Ogbudimkpa, 2025</p>
+    </footer>
+
+    <script>
+        document.getElementById("current-date").innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mark To Grade Converter</h1>
+    <label for="marks">Enter Marks:</label>
+    <input type="number" id="marks" placeholder="Enter Marks">
+    <button onclick="convertMarksToGrade()">Convert</button>
+    <p id="result"></p>
+</body>
+</html> -->

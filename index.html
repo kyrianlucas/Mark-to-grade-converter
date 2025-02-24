@@ -3,6 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="profile.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markToGrade.html">Mark to Grade Converter</a></li>
+                <li><a href="staff.html">Staff List</a></li>
+                <li><a href="weather.html">Weather Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to My Profile</h1>
+        <img id="profile-pic" src="Kyrian.jpg" alt="Your Picture">
+        <p id="image-name" class="hidden">your-picture.jpg</p>
+        <p>Hello! My name is [Your Name]. I am passionate about [Your Interests]. This is a small introduction about myself and my work.</p>
+        <p>[Add another paragraph about yourself]</p>
+    </main>
+
+    <footer>
+        <p>Current Date: <span id="current-date"></span></p>
+        <p>&copy; Kyrian Ogbudimkpa, 2025</p>
+    </footer>
+
+    <script>
+        document.getElementById("current-date").innerText = new Date().toLocaleDateString();
+        setTimeout(() => {
+            document.getElementById("image-name").classList.remove("hidden");
+        }, 10000);
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -33,4 +99,4 @@
 </html>
 
 
-
+ -->

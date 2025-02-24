@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="markToGrade.html">Mark to Grade Converter</a></li>
+                <li><a href="staff.html">Staff List</a></li>
+                <li><a href="weather.html">Weather Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Staff List</h1>
+        <button onclick="sortByName()">Sort by Name</button>
+        <button onclick="sortBySalary()">Sort by Salary</button>
+        <ul id="staff-list"></ul>
+    </main>
+
+    <footer>
+        <p>Current Date: <span id="current-date"></span></p>
+        <p>&copy; Kyrian Ogbudimkpa, 2025</p>
+    </footer>
+
+    <script>
+        document.getElementById("current-date").innerText = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
