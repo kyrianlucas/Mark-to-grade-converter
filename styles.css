@@ -24,17 +24,17 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
 }
 
 main {
-    padding: 20px;
+    padding: 20px; 
 }
 
 h1 {
-    color: #4c7aaf;
+    color: #4c7aaf;;
 }
 
 label, input {
@@ -42,8 +42,13 @@ label, input {
     margin-bottom: 10px;
 }
 
+img {
+    width: 30%;
+    border-radius: 10%;
+}
+
 button {
-    background-color: #4c7aaf;
+    background-color: #4c7aaf;;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -51,15 +56,16 @@ button {
 }
 
 button:hover {
-    background-color: #4c7aaf;
+    background-color: lightblue;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
+    margin-top: 160px;
     padding: 10px 0;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     width: 100%;
     bottom: 0;
 }
@@ -79,3 +85,46 @@ ul li {
 .hidden {
     display: none;
 }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #874242c5;
+}
+
+th {
+    background-color: #4c7aaf;;
+    color: white;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
